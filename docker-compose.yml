@@ -1,0 +1,10 @@
+version: '3.9'
+
+services:
+  stats:
+    build: .
+    container_name: stats_players
+    ports:
+      - "2000:2000"        
+    volumes:
+      - ./images:/app/images  
