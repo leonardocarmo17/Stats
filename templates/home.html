@@ -99,21 +99,41 @@ function openModal(element) {
       dateObj: new Date(p1_dates[idx].split(' ')[0].split('/').reverse().join('-') + 'T' + p1_dates[idx].split(' ')[1])
     })).sort((a, b) => b.dateObj - a.dateObj); // Ordenar do mais recente para o mais antigo
     
+    let lastDate = null;
+    let scoreLines = [];
+    
+    matchesWithDates.forEach((m, idx) => {
+      const currentDate = m.date.split(' ')[0]; // Pega apenas a data (sem hora)
+      
+      // Se a data é diferente da anterior, adiciona separador
+      if (lastDate !== null && lastDate !== currentDate) {
+        scoreLines.push('<div style="text-align:center; margin:8px 0; border-top:1px solid #ddd; padding-top:8px;"></div>');
+      }
+      
+      const p1Total = parseInt(m.p1Score);
+      const p2Total = parseInt(m.p2Score);
+      
+      scoreLines.push(`
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:4px;">
+          <div style="flex: 1; text-align:center;">
+            <span>${match.player1_name} ${m.p1Score} x ${m.p2Score} ${match.player2_name}</span>
+          </div>
+          <div style="font-size:9px; color:#999; min-width:80px; text-align:right;">
+            ${m.date || 'Data desconhecida'}
+          </div>
+          <div style="font-size:10px; font-weight:bold; min-width:60px; text-align:right; color:#333;">
+            ${parseInt(m.p1Score) + parseInt(m.p2Score)}
+          </div>
+        </div>
+      `);
+      
+      lastDate = currentDate;
+    });
+    
     scoreHtml = `
       <div style="margin-top:12px; font-size:11px;">
         <p style="font-weight:bold; text-align:center; margin-bottom:6px;">Score</p>
-        ${matchesWithDates.map(m => `
-          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:4px;">
-            <div style="flex: 1; text-align:center;">
-              <span>${match.player1_name}</span>
-              <strong>${m.p1Score} x ${m.p2Score}</strong>
-              <span>${match.player2_name}</span>
-            </div>
-            <div style="font-size:9px; color:#999; min-width:80px; text-align:right;">
-              ${m.date || 'Data desconhecida'}
-            </div>
-          </div>
-        `).join('')}
+        ${scoreLines.join('')}
       </div>
     `;
   }
