@@ -41,10 +41,14 @@ class Stats:
                 continue
             processed_keys.add(key)
 
-            stats, total_matches = compute_stats_for_pair(p1, p2, historical)
+            stats, total_matches, scores, dates = compute_stats_for_pair(p1, p2, historical)
             results[key] = {
                 "player1": {"name": p1, **stats[p1]},
                 "player2": {"name": p2, **stats[p2]},
+                "player1_scores": scores[p1],
+                "player2_scores": scores[p2],
+                "player1_dates": dates[p1],
+                "player2_dates": dates[p2],
                 "total_matches": total_matches
             }
         with open(self.output_path, "w", encoding="utf-8") as f:

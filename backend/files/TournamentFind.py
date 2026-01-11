@@ -20,20 +20,37 @@ class TournamentFind:
         default_stats = lambda name: {k: 0 for k in ["win","draw","loss","win_rate","draw_rate"]}
         if key not in all_stats:
             return {
-                "player1": {"name": player1, **default_stats(player1)},
-                "player2": {"name": player2, **default_stats(player2)}
+                "player1": {"name": player1, **default_stats(player1), "scores": [], "dates": []},
+                "player2": {"name": player2, **default_stats(player2), "scores": [], "dates": []}
             }
 
         entry = all_stats[key]
-        p1_some_data = next(v for v in entry.values() if v["name"].lower() == player1.lower())
-        p2_some_data = next(v for v in entry.values() if v["name"].lower() == player2.lower())
-
+        
+        # Extrai dados de player1 e player2
+        p1_data = entry.get("player1", {})
+        p2_data = entry.get("player2", {})
+        
         keys = ["win","draw","loss","win_rate","draw_rate"]
-        p1_some_data = {k: p1_some_data[k] for k in keys}
-        p2_some_data = {k: p2_some_data[k] for k in keys}
+        p1_stats = {k: p1_data.get(k, 0) for k in keys}
+        p2_stats = {k: p2_data.get(k, 0) for k in keys}
+        
+        # Verifica qual jogador é qual na chave ordenada
+        p1_stored_name = entry.get("player1", {}).get("name", "").lower()
+        p2_stored_name = entry.get("player2", {}).get("name", "").lower()
+        
+        # Se os nomes estão invertidos, inverte os scores também
+        p1_scores = entry.get("player1_scores", [])
+        p2_scores = entry.get("player2_scores", [])
+        p1_dates = entry.get("player1_dates", [])
+        p2_dates = entry.get("player2_dates", [])
+        
+        if p1_stored_name == player2.lower() and p2_stored_name == player1.lower():
+            p1_scores, p2_scores = p2_scores, p1_scores
+            p1_dates, p2_dates = p2_dates, p1_dates
+        
         return {
-            "player1": p1_some_data,
-            "player2": p2_some_data
+            "player1": {**p1_stats, "scores": p1_scores, "dates": p1_dates},
+            "player2": {**p2_stats, "scores": p2_scores, "dates": p2_dates}
         }
     
     def FutureMatchesFinder(self):
