@@ -27,7 +27,6 @@ class Stats:
         next_matches = self.load_json(self.next_file)
 
         results = {}
-        processed_keys = set()
 
         for match in next_matches:
             try:
@@ -37,16 +36,15 @@ class Stats:
                 continue
 
             key = "_vs_".join(sorted([p1.lower(), p2.lower()]))
-            if key in processed_keys:
-                continue
-            processed_keys.add(key)
 
-            stats, total_matches = compute_stats_for_pair(p1, p2, historical)
-            results[key] = {
-                "player1": {"name": p1, **stats[p1]},
-                "player2": {"name": p2, **stats[p2]},
-                "total_matches": total_matches
-            }
+            if key not in results:
+                stats, total_matches = compute_stats_for_pair(p1, p2, historical)
+                results[key] = {
+                    "player1": {"name": p1, **stats[p1]},
+                    "player2": {"name": p2, **stats[p2]},
+                    "total_matches": total_matches
+                }
+        
         with open(self.output_path, "w", encoding="utf-8") as f:
             json.dump(results, f, indent=2, ensure_ascii=False)
 

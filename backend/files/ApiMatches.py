@@ -15,7 +15,7 @@ class ApiMatches:
 
     def exec(self):
         delete_data()
-        tournament_urls = generate_urls(2)
+        tournament_urls = generate_urls()
 
         with ThreadPoolExecutor(max_workers=10) as executor:
             future_to_url = {executor.submit(request_tournament, url): url for url in tournament_urls}
@@ -44,11 +44,6 @@ class ApiMatches:
                     seen_ids.add(match_id)
                     cleaned_group.append(match)
                 else:
-                    # se for duplicado, ignora (remove o primeiro que apareceu)
-                    # isso faz com que o segundo permaneça
-                    # então precisamos inverter a lógica:
-                    # → remove o primeiro e mantém o segundo
-                    # solução: reescrever a lógica abaixo
                     pass
             cleaned_data.append(cleaned_group)
 

@@ -1,0 +1,2984 @@
+{
+  "stenido_vs_zaha": {
+    "player1": {
+      "name": "zaha",
+      "win": 5,
+      "draw": 0,
+      "loss": 5,
+      "win_rate": 50.0,
+      "draw_rate": 0.0,
+      "loss_rate": 50.0
+    },
+    "player2": {
+      "name": "Stenido",
+      "win": 5,
+      "draw": 0,
+      "loss": 5,
+      "win_rate": 50.0,
+      "draw_rate": 0.0,
+      "loss_rate": 50.0
+    },
+    "total_matches": 10
+  },
+  "kril_vs_radahn": {
+    "player1": {
+      "name": "Kril",
+      "win": 3,
+      "draw": 7,
+      "loss": 10,
+      "win_rate": 15.0,
+      "draw_rate": 35.0,
+      "loss_rate": 50.0
+    },
+    "player2": {
+      "name": "Radahn",
+      "win": 10,
+      "draw": 7,
+      "loss": 3,
+      "win_rate": 50.0,
+      "draw_rate": 35.0,
+      "loss_rate": 15.0
+    },
+    "total_matches": 20
+  },
+  "dan_dragonio_vs_trush99": {
+    "player1": {
+      "name": "Dan_dragonio",
+      "win": 4,
+      "draw": 1,
+      "loss": 5,
+      "win_rate": 40.0,
+      "draw_rate": 10.0,
+      "loss_rate": 50.0
+    },
+    "player2": {
+      "name": "Trush99",
+      "win": 5,
+      "draw": 1,
+      "loss": 4,
+      "win_rate": 50.0,
+      "draw_rate": 10.0,
+      "loss_rate": 40.0
+    },
+    "total_matches": 10
+  },
+  "stason23_vs_trush99": {
+    "player1": {
+      "name": "Trush99",
+      "win": 9,
+      "draw": 2,
+      "loss": 8,
+      "win_rate": 47.4,
+      "draw_rate": 10.5,
+      "loss_rate": 42.1
+    },
+    "player2": {
+      "name": "Stason23",
+      "win": 8,
+      "draw": 2,
+      "loss": 9,
+      "win_rate": 42.1,
+      "draw_rate": 10.5,
+      "loss_rate": 47.4
+    },
+    "total_matches": 19
+  },
+  "dan_dragonio_vs_radahn": {
+    "player1": {
+      "name": "Radahn",
+      "win": 22,
+      "draw": 8,
+      "loss": 10,
+      "win_rate": 55.0,
+      "draw_rate": 20.0,
+      "loss_rate": 25.0
+    },
+    "player2": {
+      "name": "Dan_dragonio",
+      "win": 10,
+      "draw": 8,
+      "loss": 22,
+      "win_rate": 25.0,
+      "draw_rate": 20.0,
+      "loss_rate": 55.0
+    },
+    "total_matches": 40
+  },
+  "dan_dragonio_vs_kril": {
+    "player1": {
+      "name": "Dan_dragonio",
+      "win": 2,
+      "draw": 1,
+      "loss": 7,
+      "win_rate": 20.0,
+      "draw_rate": 10.0,
+      "loss_rate": 70.0
+    },
+    "player2": {
+      "name": "Kril",
+      "win": 7,
+      "draw": 1,
+      "loss": 2,
+      "win_rate": 70.0,
+      "draw_rate": 10.0,
+      "loss_rate": 20.0
+    },
+    "total_matches": 10
+  },
+  "radahn_vs_stason23": {
+    "player1": {
+      "name": "Stason23",
+      "win": 20,
+      "draw": 6,
+      "loss": 22,
+      "win_rate": 41.7,
+      "draw_rate": 12.5,
+      "loss_rate": 45.8
+    },
+    "player2": {
+      "name": "Radahn",
+      "win": 22,
+      "draw": 6,
+      "loss": 20,
+      "win_rate": 45.8,
+      "draw_rate": 12.5,
+      "loss_rate": 41.7
+    },
+    "total_matches": 48
+  },
+  "radahn_vs_trush99": {
+    "player1": {
+      "name": "Radahn",
+      "win": 11,
+      "draw": 2,
+      "loss": 7,
+      "win_rate": 55.0,
+      "draw_rate": 10.0,
+      "loss_rate": 35.0
+    },
+    "player2": {
+      "name": "Trush99",
+      "win": 7,
+      "draw": 2,
+      "loss": 11,
+      "win_rate": 35.0,
+      "draw_rate": 10.0,
+      "loss_rate": 55.0
+    },
+    "total_matches": 20
+  },
+  "kril_vs_stason23": {
+    "player1": {
+      "name": "Kril",
+      "win": 5,
+      "draw": 4,
+      "loss": 11,
+      "win_rate": 25.0,
+      "draw_rate": 20.0,
+      "loss_rate": 55.0
+    },
+    "player2": {
+      "name": "Stason23",
+      "win": 11,
+      "draw": 4,
+      "loss": 5,
+      "win_rate": 55.0,
+      "draw_rate": 20.0,
+      "loss_rate": 25.0
+    },
+    "total_matches": 20
+  },
+  "dan_dragonio_vs_stason23": {
+    "player1": {
+      "name": "Stason23",
+      "win": 22,
+      "draw": 6,
+      "loss": 9,
+      "win_rate": 59.5,
+      "draw_rate": 16.2,
+      "loss_rate": 24.3
+    },
+    "player2": {
+      "name": "Dan_dragonio",
+      "win": 9,
+      "draw": 6,
+      "loss": 22,
+      "win_rate": 24.3,
+      "draw_rate": 16.2,
+      "loss_rate": 59.5
+    },
+    "total_matches": 37
+  },
+  "kril_vs_trush99": {
+    "player1": {
+      "name": "Trush99",
+      "win": 7,
+      "draw": 4,
+      "loss": 9,
+      "win_rate": 35.0,
+      "draw_rate": 20.0,
+      "loss_rate": 45.0
+    },
+    "player2": {
+      "name": "Kril",
+      "win": 9,
+      "draw": 4,
+      "loss": 7,
+      "win_rate": 45.0,
+      "draw_rate": 20.0,
+      "loss_rate": 35.0
+    },
+    "total_matches": 20
+  },
+  "bomb1to_vs_wboy": {
+    "player1": {
+      "name": "Bomb1to",
+      "win": 9,
+      "draw": 4,
+      "loss": 3,
+      "win_rate": 56.2,
+      "draw_rate": 25.0,
+      "loss_rate": 18.8
+    },
+    "player2": {
+      "name": "Wboy",
+      "win": 3,
+      "draw": 4,
+      "loss": 9,
+      "win_rate": 18.8,
+      "draw_rate": 25.0,
+      "loss_rate": 56.2
+    },
+    "total_matches": 16
+  },
+  "kraftvk_vs_v1nn": {
+    "player1": {
+      "name": "v1nn",
+      "win": 2,
+      "draw": 2,
+      "loss": 4,
+      "win_rate": 25.0,
+      "draw_rate": 25.0,
+      "loss_rate": 50.0
+    },
+    "player2": {
+      "name": "kraftvk",
+      "win": 4,
+      "draw": 2,
+      "loss": 2,
+      "win_rate": 50.0,
+      "draw_rate": 25.0,
+      "loss_rate": 25.0
+    },
+    "total_matches": 8
+  },
+  "kraftvk_vs_uncle": {
+    "player1": {
+      "name": "kraftvk",
+      "win": 0,
+      "draw": 0,
+      "loss": 0,
+      "win_rate": 0,
+      "draw_rate": 0,
+      "loss_rate": 0
+    },
+    "player2": {
+      "name": "Uncle",
+      "win": 0,
+      "draw": 0,
+      "loss": 0,
+      "win_rate": 0,
+      "draw_rate": 0,
+      "loss_rate": 0
+    },
+    "total_matches": 0
+  },
+  "v1nn_vs_wboy": {
+    "player1": {
+      "name": "Wboy",
+      "win": 7,
+      "draw": 1,
+      "loss": 8,
+      "win_rate": 43.8,
+      "draw_rate": 6.2,
+      "loss_rate": 50.0
+    },
+    "player2": {
+      "name": "v1nn",
+      "win": 8,
+      "draw": 1,
+      "loss": 7,
+      "win_rate": 50.0,
+      "draw_rate": 6.2,
+      "loss_rate": 43.8
+    },
+    "total_matches": 16
+  },
+  "bomb1to_vs_v1nn": {
+    "player1": {
+      "name": "v1nn",
+      "win": 4,
+      "draw": 5,
+      "loss": 7,
+      "win_rate": 25.0,
+      "draw_rate": 31.2,
+      "loss_rate": 43.8
+    },
+    "player2": {
+      "name": "Bomb1to",
+      "win": 7,
+      "draw": 5,
+      "loss": 4,
+      "win_rate": 43.8,
+      "draw_rate": 31.2,
+      "loss_rate": 25.0
+    },
+    "total_matches": 16
+  },
+  "uncle_vs_wboy": {
+    "player1": {
+      "name": "Uncle",
+      "win": 0,
+      "draw": 0,
+      "loss": 0,
+      "win_rate": 0,
+      "draw_rate": 0,
+      "loss_rate": 0
+    },
+    "player2": {
+      "name": "Wboy",
+      "win": 0,
+      "draw": 0,
+      "loss": 0,
+      "win_rate": 0,
+      "draw_rate": 0,
+      "loss_rate": 0
+    },
+    "total_matches": 0
+  },
+  "kraftvk_vs_wboy": {
+    "player1": {
+      "name": "Wboy",
+      "win": 3,
+      "draw": 1,
+      "loss": 4,
+      "win_rate": 37.5,
+      "draw_rate": 12.5,
+      "loss_rate": 50.0
+    },
+    "player2": {
+      "name": "kraftvk",
+      "win": 4,
+      "draw": 1,
+      "loss": 3,
+      "win_rate": 50.0,
+      "draw_rate": 12.5,
+      "loss_rate": 37.5
+    },
+    "total_matches": 8
+  },
+  "bomb1to_vs_uncle": {
+    "player1": {
+      "name": "Bomb1to",
+      "win": 0,
+      "draw": 0,
+      "loss": 0,
+      "win_rate": 0,
+      "draw_rate": 0,
+      "loss_rate": 0
+    },
+    "player2": {
+      "name": "Uncle",
+      "win": 0,
+      "draw": 0,
+      "loss": 0,
+      "win_rate": 0,
+      "draw_rate": 0,
+      "loss_rate": 0
+    },
+    "total_matches": 0
+  },
+  "uncle_vs_v1nn": {
+    "player1": {
+      "name": "Uncle",
+      "win": 0,
+      "draw": 0,
+      "loss": 0,
+      "win_rate": 0,
+      "draw_rate": 0,
+      "loss_rate": 0
+    },
+    "player2": {
+      "name": "v1nn",
+      "win": 0,
+      "draw": 0,
+      "loss": 0,
+      "win_rate": 0,
+      "draw_rate": 0,
+      "loss_rate": 0
+    },
+    "total_matches": 0
+  },
+  "bomb1to_vs_kraftvk": {
+    "player1": {
+      "name": "kraftvk",
+      "win": 4,
+      "draw": 1,
+      "loss": 3,
+      "win_rate": 50.0,
+      "draw_rate": 12.5,
+      "loss_rate": 37.5
+    },
+    "player2": {
+      "name": "Bomb1to",
+      "win": 3,
+      "draw": 1,
+      "loss": 4,
+      "win_rate": 37.5,
+      "draw_rate": 12.5,
+      "loss_rate": 50.0
+    },
+    "total_matches": 8
+  },
+  "pikalicaaa_vs_stormi": {
+    "player1": {
+      "name": "Stormi",
+      "win": 0,
+      "draw": 0,
+      "loss": 0,
+      "win_rate": 0,
+      "draw_rate": 0,
+      "loss_rate": 0
+    },
+    "player2": {
+      "name": "pikalicaaa",
+      "win": 0,
+      "draw": 0,
+      "loss": 0,
+      "win_rate": 0,
+      "draw_rate": 0,
+      "loss_rate": 0
+    },
+    "total_matches": 0
+  },
+  "donatello_vs_nedelja": {
+    "player1": {
+      "name": "Nedelja",
+      "win": 2,
+      "draw": 3,
+      "loss": 1,
+      "win_rate": 33.3,
+      "draw_rate": 50.0,
+      "loss_rate": 16.7
+    },
+    "player2": {
+      "name": "donatello",
+      "win": 1,
+      "draw": 3,
+      "loss": 2,
+      "win_rate": 16.7,
+      "draw_rate": 50.0,
+      "loss_rate": 33.3
+    },
+    "total_matches": 6
+  },
+  "donatello_vs_llulle": {
+    "player1": {
+      "name": "donatello",
+      "win": 3,
+      "draw": 1,
+      "loss": 2,
+      "win_rate": 50.0,
+      "draw_rate": 16.7,
+      "loss_rate": 33.3
+    },
+    "player2": {
+      "name": "llulle",
+      "win": 2,
+      "draw": 1,
+      "loss": 3,
+      "win_rate": 33.3,
+      "draw_rate": 16.7,
+      "loss_rate": 50.0
+    },
+    "total_matches": 6
+  },
+  "nedelja_vs_pikalicaaa": {
+    "player1": {
+      "name": "pikalicaaa",
+      "win": 1,
+      "draw": 0,
+      "loss": 5,
+      "win_rate": 16.7,
+      "draw_rate": 0.0,
+      "loss_rate": 83.3
+    },
+    "player2": {
+      "name": "Nedelja",
+      "win": 5,
+      "draw": 0,
+      "loss": 1,
+      "win_rate": 83.3,
+      "draw_rate": 0.0,
+      "loss_rate": 16.7
+    },
+    "total_matches": 6
+  },
+  "nedelja_vs_stormi": {
+    "player1": {
+      "name": "Nedelja",
+      "win": 0,
+      "draw": 0,
+      "loss": 0,
+      "win_rate": 0,
+      "draw_rate": 0,
+      "loss_rate": 0
+    },
+    "player2": {
+      "name": "Stormi",
+      "win": 0,
+      "draw": 0,
+      "loss": 0,
+      "win_rate": 0,
+      "draw_rate": 0,
+      "loss_rate": 0
+    },
+    "total_matches": 0
+  },
+  "llulle_vs_pikalicaaa": {
+    "player1": {
+      "name": "llulle",
+      "win": 2,
+      "draw": 1,
+      "loss": 3,
+      "win_rate": 33.3,
+      "draw_rate": 16.7,
+      "loss_rate": 50.0
+    },
+    "player2": {
+      "name": "pikalicaaa",
+      "win": 3,
+      "draw": 1,
+      "loss": 2,
+      "win_rate": 50.0,
+      "draw_rate": 16.7,
+      "loss_rate": 33.3
+    },
+    "total_matches": 6
+  },
+  "donatello_vs_pikalicaaa": {
+    "player1": {
+      "name": "pikalicaaa",
+      "win": 0,
+      "draw": 2,
+      "loss": 4,
+      "win_rate": 0.0,
+      "draw_rate": 33.3,
+      "loss_rate": 66.7
+    },
+    "player2": {
+      "name": "donatello",
+      "win": 4,
+      "draw": 2,
+      "loss": 0,
+      "win_rate": 66.7,
+      "draw_rate": 33.3,
+      "loss_rate": 0.0
+    },
+    "total_matches": 6
+  },
+  "llulle_vs_stormi": {
+    "player1": {
+      "name": "Stormi",
+      "win": 0,
+      "draw": 0,
+      "loss": 0,
+      "win_rate": 0,
+      "draw_rate": 0,
+      "loss_rate": 0
+    },
+    "player2": {
+      "name": "llulle",
+      "win": 0,
+      "draw": 0,
+      "loss": 0,
+      "win_rate": 0,
+      "draw_rate": 0,
+      "loss_rate": 0
+    },
+    "total_matches": 0
+  },
+  "llulle_vs_nedelja": {
+    "player1": {
+      "name": "llulle",
+      "win": 2,
+      "draw": 2,
+      "loss": 2,
+      "win_rate": 33.3,
+      "draw_rate": 33.3,
+      "loss_rate": 33.3
+    },
+    "player2": {
+      "name": "Nedelja",
+      "win": 2,
+      "draw": 2,
+      "loss": 2,
+      "win_rate": 33.3,
+      "draw_rate": 33.3,
+      "loss_rate": 33.3
+    },
+    "total_matches": 6
+  },
+  "donatello_vs_stormi": {
+    "player1": {
+      "name": "donatello",
+      "win": 0,
+      "draw": 0,
+      "loss": 0,
+      "win_rate": 0,
+      "draw_rate": 0,
+      "loss_rate": 0
+    },
+    "player2": {
+      "name": "Stormi",
+      "win": 0,
+      "draw": 0,
+      "loss": 0,
+      "win_rate": 0,
+      "draw_rate": 0,
+      "loss_rate": 0
+    },
+    "total_matches": 0
+  },
+  "blackstar98_vs_sane4ek8": {
+    "player1": {
+      "name": "BlackStar98",
+      "win": 0,
+      "draw": 0,
+      "loss": 0,
+      "win_rate": 0,
+      "draw_rate": 0,
+      "loss_rate": 0
+    },
+    "player2": {
+      "name": "sane4ek8",
+      "win": 0,
+      "draw": 0,
+      "loss": 0,
+      "win_rate": 0,
+      "draw_rate": 0,
+      "loss_rate": 0
+    },
+    "total_matches": 0
+  },
+  "dm1trena_vs_meltosik": {
+    "player1": {
+      "name": "MeLToSik",
+      "win": 5,
+      "draw": 4,
+      "loss": 7,
+      "win_rate": 31.2,
+      "draw_rate": 25.0,
+      "loss_rate": 43.8
+    },
+    "player2": {
+      "name": "dm1trena",
+      "win": 7,
+      "draw": 4,
+      "loss": 5,
+      "win_rate": 43.8,
+      "draw_rate": 25.0,
+      "loss_rate": 31.2
+    },
+    "total_matches": 16
+  },
+  "dm1trena_vs_rossfcdk": {
+    "player1": {
+      "name": "dm1trena",
+      "win": 2,
+      "draw": 3,
+      "loss": 3,
+      "win_rate": 25.0,
+      "draw_rate": 37.5,
+      "loss_rate": 37.5
+    },
+    "player2": {
+      "name": "RossFCDK",
+      "win": 3,
+      "draw": 3,
+      "loss": 2,
+      "win_rate": 37.5,
+      "draw_rate": 37.5,
+      "loss_rate": 25.0
+    },
+    "total_matches": 8
+  },
+  "meltosik_vs_sane4ek8": {
+    "player1": {
+      "name": "sane4ek8",
+      "win": 7,
+      "draw": 4,
+      "loss": 5,
+      "win_rate": 43.8,
+      "draw_rate": 25.0,
+      "loss_rate": 31.2
+    },
+    "player2": {
+      "name": "MeLToSik",
+      "win": 5,
+      "draw": 4,
+      "loss": 7,
+      "win_rate": 31.2,
+      "draw_rate": 25.0,
+      "loss_rate": 43.8
+    },
+    "total_matches": 16
+  },
+  "blackstar98_vs_meltosik": {
+    "player1": {
+      "name": "MeLToSik",
+      "win": 1,
+      "draw": 2,
+      "loss": 5,
+      "win_rate": 12.5,
+      "draw_rate": 25.0,
+      "loss_rate": 62.5
+    },
+    "player2": {
+      "name": "BlackStar98",
+      "win": 5,
+      "draw": 2,
+      "loss": 1,
+      "win_rate": 62.5,
+      "draw_rate": 25.0,
+      "loss_rate": 12.5
+    },
+    "total_matches": 8
+  },
+  "rossfcdk_vs_sane4ek8": {
+    "player1": {
+      "name": "RossFCDK",
+      "win": 1,
+      "draw": 5,
+      "loss": 10,
+      "win_rate": 6.2,
+      "draw_rate": 31.2,
+      "loss_rate": 62.5
+    },
+    "player2": {
+      "name": "sane4ek8",
+      "win": 10,
+      "draw": 5,
+      "loss": 1,
+      "win_rate": 62.5,
+      "draw_rate": 31.2,
+      "loss_rate": 6.2
+    },
+    "total_matches": 16
+  },
+  "dm1trena_vs_sane4ek8": {
+    "player1": {
+      "name": "sane4ek8",
+      "win": 2,
+      "draw": 5,
+      "loss": 1,
+      "win_rate": 25.0,
+      "draw_rate": 62.5,
+      "loss_rate": 12.5
+    },
+    "player2": {
+      "name": "dm1trena",
+      "win": 1,
+      "draw": 5,
+      "loss": 2,
+      "win_rate": 12.5,
+      "draw_rate": 62.5,
+      "loss_rate": 25.0
+    },
+    "total_matches": 8
+  },
+  "blackstar98_vs_rossfcdk": {
+    "player1": {
+      "name": "BlackStar98",
+      "win": 5,
+      "draw": 1,
+      "loss": 2,
+      "win_rate": 62.5,
+      "draw_rate": 12.5,
+      "loss_rate": 25.0
+    },
+    "player2": {
+      "name": "RossFCDK",
+      "win": 2,
+      "draw": 1,
+      "loss": 5,
+      "win_rate": 25.0,
+      "draw_rate": 12.5,
+      "loss_rate": 62.5
+    },
+    "total_matches": 8
+  },
+  "meltosik_vs_rossfcdk": {
+    "player1": {
+      "name": "RossFCDK",
+      "win": 7,
+      "draw": 2,
+      "loss": 7,
+      "win_rate": 43.8,
+      "draw_rate": 12.5,
+      "loss_rate": 43.8
+    },
+    "player2": {
+      "name": "MeLToSik",
+      "win": 7,
+      "draw": 2,
+      "loss": 7,
+      "win_rate": 43.8,
+      "draw_rate": 12.5,
+      "loss_rate": 43.8
+    },
+    "total_matches": 16
+  },
+  "blackstar98_vs_dm1trena": {
+    "player1": {
+      "name": "dm1trena",
+      "win": 1,
+      "draw": 2,
+      "loss": 5,
+      "win_rate": 12.5,
+      "draw_rate": 25.0,
+      "loss_rate": 62.5
+    },
+    "player2": {
+      "name": "BlackStar98",
+      "win": 5,
+      "draw": 2,
+      "loss": 1,
+      "win_rate": 62.5,
+      "draw_rate": 25.0,
+      "loss_rate": 12.5
+    },
+    "total_matches": 8
+  },
+  "gangsta_panda_vs_maggett0": {
+    "player1": {
+      "name": "GanGsta_Panda",
+      "win": 1,
+      "draw": 0,
+      "loss": 4,
+      "win_rate": 20.0,
+      "draw_rate": 0.0,
+      "loss_rate": 80.0
+    },
+    "player2": {
+      "name": "maggett0",
+      "win": 4,
+      "draw": 0,
+      "loss": 1,
+      "win_rate": 80.0,
+      "draw_rate": 0.0,
+      "loss_rate": 20.0
+    },
+    "total_matches": 5
+  },
+  "v1nniepuh_vs_vivienne": {
+    "player1": {
+      "name": "vivienne",
+      "win": 5,
+      "draw": 2,
+      "loss": 3,
+      "win_rate": 50.0,
+      "draw_rate": 20.0,
+      "loss_rate": 30.0
+    },
+    "player2": {
+      "name": "v1nniePuh",
+      "win": 3,
+      "draw": 2,
+      "loss": 5,
+      "win_rate": 30.0,
+      "draw_rate": 20.0,
+      "loss_rate": 50.0
+    },
+    "total_matches": 10
+  },
+  "vivienne_vs_zoyir": {
+    "player1": {
+      "name": "zoyir",
+      "win": 0,
+      "draw": 3,
+      "loss": 7,
+      "win_rate": 0.0,
+      "draw_rate": 30.0,
+      "loss_rate": 70.0
+    },
+    "player2": {
+      "name": "vivienne",
+      "win": 7,
+      "draw": 3,
+      "loss": 0,
+      "win_rate": 70.0,
+      "draw_rate": 30.0,
+      "loss_rate": 0.0
+    },
+    "total_matches": 10
+  },
+  "gangsta_panda_vs_v1nniepuh": {
+    "player1": {
+      "name": "v1nniePuh",
+      "win": 3,
+      "draw": 0,
+      "loss": 7,
+      "win_rate": 30.0,
+      "draw_rate": 0.0,
+      "loss_rate": 70.0
+    },
+    "player2": {
+      "name": "GanGsta_Panda",
+      "win": 7,
+      "draw": 0,
+      "loss": 3,
+      "win_rate": 70.0,
+      "draw_rate": 0.0,
+      "loss_rate": 30.0
+    },
+    "total_matches": 10
+  },
+  "maggett0_vs_v1nniepuh": {
+    "player1": {
+      "name": "maggett0",
+      "win": 2,
+      "draw": 1,
+      "loss": 2,
+      "win_rate": 40.0,
+      "draw_rate": 20.0,
+      "loss_rate": 40.0
+    },
+    "player2": {
+      "name": "v1nniePuh",
+      "win": 2,
+      "draw": 1,
+      "loss": 2,
+      "win_rate": 40.0,
+      "draw_rate": 20.0,
+      "loss_rate": 40.0
+    },
+    "total_matches": 5
+  },
+  "gangsta_panda_vs_zoyir": {
+    "player1": {
+      "name": "GanGsta_Panda",
+      "win": 6,
+      "draw": 0,
+      "loss": 4,
+      "win_rate": 60.0,
+      "draw_rate": 0.0,
+      "loss_rate": 40.0
+    },
+    "player2": {
+      "name": "zoyir",
+      "win": 4,
+      "draw": 0,
+      "loss": 6,
+      "win_rate": 40.0,
+      "draw_rate": 0.0,
+      "loss_rate": 60.0
+    },
+    "total_matches": 10
+  },
+  "gangsta_panda_vs_vivienne": {
+    "player1": {
+      "name": "vivienne",
+      "win": 4,
+      "draw": 8,
+      "loss": 3,
+      "win_rate": 26.7,
+      "draw_rate": 53.3,
+      "loss_rate": 20.0
+    },
+    "player2": {
+      "name": "GanGsta_Panda",
+      "win": 3,
+      "draw": 8,
+      "loss": 4,
+      "win_rate": 20.0,
+      "draw_rate": 53.3,
+      "loss_rate": 26.7
+    },
+    "total_matches": 15
+  },
+  "maggett0_vs_zoyir": {
+    "player1": {
+      "name": "zoyir",
+      "win": 3,
+      "draw": 0,
+      "loss": 7,
+      "win_rate": 30.0,
+      "draw_rate": 0.0,
+      "loss_rate": 70.0
+    },
+    "player2": {
+      "name": "maggett0",
+      "win": 7,
+      "draw": 0,
+      "loss": 3,
+      "win_rate": 70.0,
+      "draw_rate": 0.0,
+      "loss_rate": 30.0
+    },
+    "total_matches": 10
+  },
+  "v1nniepuh_vs_zoyir": {
+    "player1": {
+      "name": "v1nniePuh",
+      "win": 1,
+      "draw": 1,
+      "loss": 8,
+      "win_rate": 10.0,
+      "draw_rate": 10.0,
+      "loss_rate": 80.0
+    },
+    "player2": {
+      "name": "zoyir",
+      "win": 8,
+      "draw": 1,
+      "loss": 1,
+      "win_rate": 80.0,
+      "draw_rate": 10.0,
+      "loss_rate": 10.0
+    },
+    "total_matches": 10
+  },
+  "maggett0_vs_vivienne": {
+    "player1": {
+      "name": "maggett0",
+      "win": 3,
+      "draw": 0,
+      "loss": 2,
+      "win_rate": 60.0,
+      "draw_rate": 0.0,
+      "loss_rate": 40.0
+    },
+    "player2": {
+      "name": "vivienne",
+      "win": 2,
+      "draw": 0,
+      "loss": 3,
+      "win_rate": 40.0,
+      "draw_rate": 0.0,
+      "loss_rate": 60.0
+    },
+    "total_matches": 5
+  },
+  "glumac_vs_terza": {
+    "player1": {
+      "name": "Glumac",
+      "win": 0,
+      "draw": 0,
+      "loss": 0,
+      "win_rate": 0,
+      "draw_rate": 0,
+      "loss_rate": 0
+    },
+    "player2": {
+      "name": "Terza",
+      "win": 0,
+      "draw": 0,
+      "loss": 0,
+      "win_rate": 0,
+      "draw_rate": 0,
+      "loss_rate": 0
+    },
+    "total_matches": 0
+  },
+  "bolec_vs_paka": {
+    "player1": {
+      "name": "Paka",
+      "win": 5,
+      "draw": 3,
+      "loss": 3,
+      "win_rate": 45.5,
+      "draw_rate": 27.3,
+      "loss_rate": 27.3
+    },
+    "player2": {
+      "name": "Bolec",
+      "win": 3,
+      "draw": 3,
+      "loss": 5,
+      "win_rate": 27.3,
+      "draw_rate": 27.3,
+      "loss_rate": 45.5
+    },
+    "total_matches": 11
+  },
+  "bolec_vs_elmagico": {
+    "player1": {
+      "name": "Bolec",
+      "win": 4,
+      "draw": 4,
+      "loss": 8,
+      "win_rate": 25.0,
+      "draw_rate": 25.0,
+      "loss_rate": 50.0
+    },
+    "player2": {
+      "name": "Elmagico",
+      "win": 8,
+      "draw": 4,
+      "loss": 4,
+      "win_rate": 50.0,
+      "draw_rate": 25.0,
+      "loss_rate": 25.0
+    },
+    "total_matches": 16
+  },
+  "paka_vs_terza": {
+    "player1": {
+      "name": "Terza",
+      "win": 1,
+      "draw": 1,
+      "loss": 3,
+      "win_rate": 20.0,
+      "draw_rate": 20.0,
+      "loss_rate": 60.0
+    },
+    "player2": {
+      "name": "Paka",
+      "win": 3,
+      "draw": 1,
+      "loss": 1,
+      "win_rate": 60.0,
+      "draw_rate": 20.0,
+      "loss_rate": 20.0
+    },
+    "total_matches": 5
+  },
+  "glumac_vs_paka": {
+    "player1": {
+      "name": "Paka",
+      "win": 4,
+      "draw": 1,
+      "loss": 1,
+      "win_rate": 66.7,
+      "draw_rate": 16.7,
+      "loss_rate": 16.7
+    },
+    "player2": {
+      "name": "Glumac",
+      "win": 1,
+      "draw": 1,
+      "loss": 4,
+      "win_rate": 16.7,
+      "draw_rate": 16.7,
+      "loss_rate": 66.7
+    },
+    "total_matches": 6
+  },
+  "elmagico_vs_terza": {
+    "player1": {
+      "name": "Elmagico",
+      "win": 0,
+      "draw": 0,
+      "loss": 0,
+      "win_rate": 0,
+      "draw_rate": 0,
+      "loss_rate": 0
+    },
+    "player2": {
+      "name": "Terza",
+      "win": 0,
+      "draw": 0,
+      "loss": 0,
+      "win_rate": 0,
+      "draw_rate": 0,
+      "loss_rate": 0
+    },
+    "total_matches": 0
+  },
+  "bolec_vs_terza": {
+    "player1": {
+      "name": "Terza",
+      "win": 0,
+      "draw": 0,
+      "loss": 0,
+      "win_rate": 0,
+      "draw_rate": 0,
+      "loss_rate": 0
+    },
+    "player2": {
+      "name": "Bolec",
+      "win": 0,
+      "draw": 0,
+      "loss": 0,
+      "win_rate": 0,
+      "draw_rate": 0,
+      "loss_rate": 0
+    },
+    "total_matches": 0
+  },
+  "elmagico_vs_glumac": {
+    "player1": {
+      "name": "Glumac",
+      "win": 3,
+      "draw": 2,
+      "loss": 6,
+      "win_rate": 27.3,
+      "draw_rate": 18.2,
+      "loss_rate": 54.5
+    },
+    "player2": {
+      "name": "Elmagico",
+      "win": 6,
+      "draw": 2,
+      "loss": 3,
+      "win_rate": 54.5,
+      "draw_rate": 18.2,
+      "loss_rate": 27.3
+    },
+    "total_matches": 11
+  },
+  "elmagico_vs_paka": {
+    "player1": {
+      "name": "Elmagico",
+      "win": 2,
+      "draw": 1,
+      "loss": 8,
+      "win_rate": 18.2,
+      "draw_rate": 9.1,
+      "loss_rate": 72.7
+    },
+    "player2": {
+      "name": "Paka",
+      "win": 8,
+      "draw": 1,
+      "loss": 2,
+      "win_rate": 72.7,
+      "draw_rate": 9.1,
+      "loss_rate": 18.2
+    },
+    "total_matches": 11
+  },
+  "bolec_vs_glumac": {
+    "player1": {
+      "name": "Bolec",
+      "win": 1,
+      "draw": 7,
+      "loss": 3,
+      "win_rate": 9.1,
+      "draw_rate": 63.6,
+      "loss_rate": 27.3
+    },
+    "player2": {
+      "name": "Glumac",
+      "win": 3,
+      "draw": 7,
+      "loss": 1,
+      "win_rate": 27.3,
+      "draw_rate": 63.6,
+      "loss_rate": 9.1
+    },
+    "total_matches": 11
+  },
+  "groma_vs_stasyan": {
+    "player1": {
+      "name": "Stasyan",
+      "win": 0,
+      "draw": 0,
+      "loss": 0,
+      "win_rate": 0,
+      "draw_rate": 0,
+      "loss_rate": 0
+    },
+    "player2": {
+      "name": "Groma",
+      "win": 0,
+      "draw": 0,
+      "loss": 0,
+      "win_rate": 0,
+      "draw_rate": 0,
+      "loss_rate": 0
+    },
+    "total_matches": 0
+  },
+  "bob_vs_koss": {
+    "player1": {
+      "name": "Koss",
+      "win": 6,
+      "draw": 2,
+      "loss": 8,
+      "win_rate": 37.5,
+      "draw_rate": 12.5,
+      "loss_rate": 50.0
+    },
+    "player2": {
+      "name": "Bob",
+      "win": 8,
+      "draw": 2,
+      "loss": 6,
+      "win_rate": 50.0,
+      "draw_rate": 12.5,
+      "loss_rate": 37.5
+    },
+    "total_matches": 16
+  },
+  "bob_vs_profik": {
+    "player1": {
+      "name": "Bob",
+      "win": 0,
+      "draw": 0,
+      "loss": 0,
+      "win_rate": 0,
+      "draw_rate": 0,
+      "loss_rate": 0
+    },
+    "player2": {
+      "name": "Profik",
+      "win": 0,
+      "draw": 0,
+      "loss": 0,
+      "win_rate": 0,
+      "draw_rate": 0,
+      "loss_rate": 0
+    },
+    "total_matches": 0
+  },
+  "groma_vs_koss": {
+    "player1": {
+      "name": "Groma",
+      "win": 0,
+      "draw": 0,
+      "loss": 0,
+      "win_rate": 0,
+      "draw_rate": 0,
+      "loss_rate": 0
+    },
+    "player2": {
+      "name": "Koss",
+      "win": 0,
+      "draw": 0,
+      "loss": 0,
+      "win_rate": 0,
+      "draw_rate": 0,
+      "loss_rate": 0
+    },
+    "total_matches": 0
+  },
+  "koss_vs_stasyan": {
+    "player1": {
+      "name": "Koss",
+      "win": 0,
+      "draw": 0,
+      "loss": 0,
+      "win_rate": 0,
+      "draw_rate": 0,
+      "loss_rate": 0
+    },
+    "player2": {
+      "name": "Stasyan",
+      "win": 0,
+      "draw": 0,
+      "loss": 0,
+      "win_rate": 0,
+      "draw_rate": 0,
+      "loss_rate": 0
+    },
+    "total_matches": 0
+  },
+  "groma_vs_profik": {
+    "player1": {
+      "name": "Profik",
+      "win": 3,
+      "draw": 3,
+      "loss": 4,
+      "win_rate": 30.0,
+      "draw_rate": 30.0,
+      "loss_rate": 40.0
+    },
+    "player2": {
+      "name": "Groma",
+      "win": 4,
+      "draw": 3,
+      "loss": 3,
+      "win_rate": 40.0,
+      "draw_rate": 30.0,
+      "loss_rate": 30.0
+    },
+    "total_matches": 10
+  },
+  "bob_vs_groma": {
+    "player1": {
+      "name": "Groma",
+      "win": 0,
+      "draw": 0,
+      "loss": 0,
+      "win_rate": 0,
+      "draw_rate": 0,
+      "loss_rate": 0
+    },
+    "player2": {
+      "name": "Bob",
+      "win": 0,
+      "draw": 0,
+      "loss": 0,
+      "win_rate": 0,
+      "draw_rate": 0,
+      "loss_rate": 0
+    },
+    "total_matches": 0
+  },
+  "profik_vs_stasyan": {
+    "player1": {
+      "name": "Stasyan",
+      "win": 4,
+      "draw": 0,
+      "loss": 4,
+      "win_rate": 50.0,
+      "draw_rate": 0.0,
+      "loss_rate": 50.0
+    },
+    "player2": {
+      "name": "Profik",
+      "win": 4,
+      "draw": 0,
+      "loss": 4,
+      "win_rate": 50.0,
+      "draw_rate": 0.0,
+      "loss_rate": 50.0
+    },
+    "total_matches": 8
+  },
+  "koss_vs_profik": {
+    "player1": {
+      "name": "Profik",
+      "win": 0,
+      "draw": 0,
+      "loss": 0,
+      "win_rate": 0,
+      "draw_rate": 0,
+      "loss_rate": 0
+    },
+    "player2": {
+      "name": "Koss",
+      "win": 0,
+      "draw": 0,
+      "loss": 0,
+      "win_rate": 0,
+      "draw_rate": 0,
+      "loss_rate": 0
+    },
+    "total_matches": 0
+  },
+  "bob_vs_stasyan": {
+    "player1": {
+      "name": "Bob",
+      "win": 0,
+      "draw": 0,
+      "loss": 0,
+      "win_rate": 0,
+      "draw_rate": 0,
+      "loss_rate": 0
+    },
+    "player2": {
+      "name": "Stasyan",
+      "win": 0,
+      "draw": 0,
+      "loss": 0,
+      "win_rate": 0,
+      "draw_rate": 0,
+      "loss_rate": 0
+    },
+    "total_matches": 0
+  },
+  "simaponika_vs_v1nx7": {
+    "player1": {
+      "name": "Simaponika",
+      "win": 3,
+      "draw": 2,
+      "loss": 3,
+      "win_rate": 37.5,
+      "draw_rate": 25.0,
+      "loss_rate": 37.5
+    },
+    "player2": {
+      "name": "V1nx7",
+      "win": 3,
+      "draw": 2,
+      "loss": 3,
+      "win_rate": 37.5,
+      "draw_rate": 25.0,
+      "loss_rate": 37.5
+    },
+    "total_matches": 8
+  },
+  "noen_vs_ssstasonn": {
+    "player1": {
+      "name": "ssstasonn",
+      "win": 4,
+      "draw": 2,
+      "loss": 8,
+      "win_rate": 28.6,
+      "draw_rate": 14.3,
+      "loss_rate": 57.1
+    },
+    "player2": {
+      "name": "noeN",
+      "win": 8,
+      "draw": 2,
+      "loss": 4,
+      "win_rate": 57.1,
+      "draw_rate": 14.3,
+      "loss_rate": 28.6
+    },
+    "total_matches": 14
+  },
+  "kot_vs_noen": {
+    "player1": {
+      "name": "noeN",
+      "win": 5,
+      "draw": 4,
+      "loss": 5,
+      "win_rate": 35.7,
+      "draw_rate": 28.6,
+      "loss_rate": 35.7
+    },
+    "player2": {
+      "name": "Kot",
+      "win": 5,
+      "draw": 4,
+      "loss": 5,
+      "win_rate": 35.7,
+      "draw_rate": 28.6,
+      "loss_rate": 35.7
+    },
+    "total_matches": 14
+  },
+  "ssstasonn_vs_v1nx7": {
+    "player1": {
+      "name": "V1nx7",
+      "win": 7,
+      "draw": 3,
+      "loss": 4,
+      "win_rate": 50.0,
+      "draw_rate": 21.4,
+      "loss_rate": 28.6
+    },
+    "player2": {
+      "name": "ssstasonn",
+      "win": 4,
+      "draw": 3,
+      "loss": 7,
+      "win_rate": 28.6,
+      "draw_rate": 21.4,
+      "loss_rate": 50.0
+    },
+    "total_matches": 14
+  },
+  "simaponika_vs_ssstasonn": {
+    "player1": {
+      "name": "ssstasonn",
+      "win": 1,
+      "draw": 2,
+      "loss": 11,
+      "win_rate": 7.1,
+      "draw_rate": 14.3,
+      "loss_rate": 78.6
+    },
+    "player2": {
+      "name": "Simaponika",
+      "win": 11,
+      "draw": 2,
+      "loss": 1,
+      "win_rate": 78.6,
+      "draw_rate": 14.3,
+      "loss_rate": 7.1
+    },
+    "total_matches": 14
+  },
+  "kot_vs_v1nx7": {
+    "player1": {
+      "name": "Kot",
+      "win": 3,
+      "draw": 0,
+      "loss": 11,
+      "win_rate": 21.4,
+      "draw_rate": 0.0,
+      "loss_rate": 78.6
+    },
+    "player2": {
+      "name": "V1nx7",
+      "win": 11,
+      "draw": 0,
+      "loss": 3,
+      "win_rate": 78.6,
+      "draw_rate": 0.0,
+      "loss_rate": 21.4
+    },
+    "total_matches": 14
+  },
+  "noen_vs_v1nx7": {
+    "player1": {
+      "name": "V1nx7",
+      "win": 4,
+      "draw": 2,
+      "loss": 2,
+      "win_rate": 50.0,
+      "draw_rate": 25.0,
+      "loss_rate": 25.0
+    },
+    "player2": {
+      "name": "noeN",
+      "win": 2,
+      "draw": 2,
+      "loss": 4,
+      "win_rate": 25.0,
+      "draw_rate": 25.0,
+      "loss_rate": 50.0
+    },
+    "total_matches": 8
+  },
+  "kot_vs_simaponika": {
+    "player1": {
+      "name": "Simaponika",
+      "win": 7,
+      "draw": 1,
+      "loss": 6,
+      "win_rate": 50.0,
+      "draw_rate": 7.1,
+      "loss_rate": 42.9
+    },
+    "player2": {
+      "name": "Kot",
+      "win": 6,
+      "draw": 1,
+      "loss": 7,
+      "win_rate": 42.9,
+      "draw_rate": 7.1,
+      "loss_rate": 50.0
+    },
+    "total_matches": 14
+  },
+  "kot_vs_ssstasonn": {
+    "player1": {
+      "name": "Kot",
+      "win": 7,
+      "draw": 6,
+      "loss": 7,
+      "win_rate": 35.0,
+      "draw_rate": 30.0,
+      "loss_rate": 35.0
+    },
+    "player2": {
+      "name": "ssstasonn",
+      "win": 7,
+      "draw": 6,
+      "loss": 7,
+      "win_rate": 35.0,
+      "draw_rate": 30.0,
+      "loss_rate": 35.0
+    },
+    "total_matches": 20
+  },
+  "noen_vs_simaponika": {
+    "player1": {
+      "name": "noeN",
+      "win": 2,
+      "draw": 1,
+      "loss": 5,
+      "win_rate": 25.0,
+      "draw_rate": 12.5,
+      "loss_rate": 62.5
+    },
+    "player2": {
+      "name": "Simaponika",
+      "win": 5,
+      "draw": 1,
+      "loss": 2,
+      "win_rate": 62.5,
+      "draw_rate": 12.5,
+      "loss_rate": 25.0
+    },
+    "total_matches": 8
+  },
+  "aguuero_vs_lukapaja": {
+    "player1": {
+      "name": "Lukapaja",
+      "win": 5,
+      "draw": 1,
+      "loss": 2,
+      "win_rate": 62.5,
+      "draw_rate": 12.5,
+      "loss_rate": 25.0
+    },
+    "player2": {
+      "name": "aguuero",
+      "win": 2,
+      "draw": 1,
+      "loss": 5,
+      "win_rate": 25.0,
+      "draw_rate": 12.5,
+      "loss_rate": 62.5
+    },
+    "total_matches": 8
+  },
+  "maki_vs_smidzii": {
+    "player1": {
+      "name": "smidzii",
+      "win": 7,
+      "draw": 3,
+      "loss": 2,
+      "win_rate": 58.3,
+      "draw_rate": 25.0,
+      "loss_rate": 16.7
+    },
+    "player2": {
+      "name": "Maki",
+      "win": 2,
+      "draw": 3,
+      "loss": 7,
+      "win_rate": 16.7,
+      "draw_rate": 25.0,
+      "loss_rate": 58.3
+    },
+    "total_matches": 12
+  },
+  "chevare_vs_maki": {
+    "player1": {
+      "name": "Maki",
+      "win": 1,
+      "draw": 1,
+      "loss": 0,
+      "win_rate": 50.0,
+      "draw_rate": 50.0,
+      "loss_rate": 0.0
+    },
+    "player2": {
+      "name": "chevare",
+      "win": 0,
+      "draw": 1,
+      "loss": 1,
+      "win_rate": 0.0,
+      "draw_rate": 50.0,
+      "loss_rate": 50.0
+    },
+    "total_matches": 2
+  },
+  "aguuero_vs_smidzii": {
+    "player1": {
+      "name": "aguuero",
+      "win": 0,
+      "draw": 0,
+      "loss": 0,
+      "win_rate": 0,
+      "draw_rate": 0,
+      "loss_rate": 0
+    },
+    "player2": {
+      "name": "smidzii",
+      "win": 0,
+      "draw": 0,
+      "loss": 0,
+      "win_rate": 0,
+      "draw_rate": 0,
+      "loss_rate": 0
+    },
+    "total_matches": 0
+  },
+  "lukapaja_vs_smidzii": {
+    "player1": {
+      "name": "smidzii",
+      "win": 4,
+      "draw": 0,
+      "loss": 2,
+      "win_rate": 66.7,
+      "draw_rate": 0.0,
+      "loss_rate": 33.3
+    },
+    "player2": {
+      "name": "Lukapaja",
+      "win": 2,
+      "draw": 0,
+      "loss": 4,
+      "win_rate": 33.3,
+      "draw_rate": 0.0,
+      "loss_rate": 66.7
+    },
+    "total_matches": 6
+  },
+  "aguuero_vs_chevare": {
+    "player1": {
+      "name": "chevare",
+      "win": 6,
+      "draw": 4,
+      "loss": 4,
+      "win_rate": 42.9,
+      "draw_rate": 28.6,
+      "loss_rate": 28.6
+    },
+    "player2": {
+      "name": "aguuero",
+      "win": 4,
+      "draw": 4,
+      "loss": 6,
+      "win_rate": 28.6,
+      "draw_rate": 28.6,
+      "loss_rate": 42.9
+    },
+    "total_matches": 14
+  },
+  "aguuero_vs_maki": {
+    "player1": {
+      "name": "aguuero",
+      "win": 2,
+      "draw": 0,
+      "loss": 0,
+      "win_rate": 100.0,
+      "draw_rate": 0.0,
+      "loss_rate": 0.0
+    },
+    "player2": {
+      "name": "Maki",
+      "win": 0,
+      "draw": 0,
+      "loss": 2,
+      "win_rate": 0.0,
+      "draw_rate": 0.0,
+      "loss_rate": 100.0
+    },
+    "total_matches": 2
+  },
+  "chevare_vs_lukapaja": {
+    "player1": {
+      "name": "Lukapaja",
+      "win": 2,
+      "draw": 4,
+      "loss": 2,
+      "win_rate": 25.0,
+      "draw_rate": 50.0,
+      "loss_rate": 25.0
+    },
+    "player2": {
+      "name": "chevare",
+      "win": 2,
+      "draw": 4,
+      "loss": 2,
+      "win_rate": 25.0,
+      "draw_rate": 50.0,
+      "loss_rate": 25.0
+    },
+    "total_matches": 8
+  },
+  "chevare_vs_smidzii": {
+    "player1": {
+      "name": "chevare",
+      "win": 0,
+      "draw": 0,
+      "loss": 0,
+      "win_rate": 0,
+      "draw_rate": 0,
+      "loss_rate": 0
+    },
+    "player2": {
+      "name": "smidzii",
+      "win": 0,
+      "draw": 0,
+      "loss": 0,
+      "win_rate": 0,
+      "draw_rate": 0,
+      "loss_rate": 0
+    },
+    "total_matches": 0
+  },
+  "lukapaja_vs_maki": {
+    "player1": {
+      "name": "Maki",
+      "win": 4,
+      "draw": 1,
+      "loss": 3,
+      "win_rate": 50.0,
+      "draw_rate": 12.5,
+      "loss_rate": 37.5
+    },
+    "player2": {
+      "name": "Lukapaja",
+      "win": 3,
+      "draw": 1,
+      "loss": 4,
+      "win_rate": 37.5,
+      "draw_rate": 12.5,
+      "loss_rate": 50.0
+    },
+    "total_matches": 8
+  },
+  "fantazer_vs_senya": {
+    "player1": {
+      "name": "fantazer",
+      "win": 0,
+      "draw": 0,
+      "loss": 0,
+      "win_rate": 0,
+      "draw_rate": 0,
+      "loss_rate": 0
+    },
+    "player2": {
+      "name": "Senya",
+      "win": 0,
+      "draw": 0,
+      "loss": 0,
+      "win_rate": 0,
+      "draw_rate": 0,
+      "loss_rate": 0
+    },
+    "total_matches": 0
+  },
+  "pimchik_vs_yerema": {
+    "player1": {
+      "name": "pimchik",
+      "win": 14,
+      "draw": 2,
+      "loss": 4,
+      "win_rate": 70.0,
+      "draw_rate": 10.0,
+      "loss_rate": 20.0
+    },
+    "player2": {
+      "name": "Yerema",
+      "win": 4,
+      "draw": 2,
+      "loss": 14,
+      "win_rate": 20.0,
+      "draw_rate": 10.0,
+      "loss_rate": 70.0
+    },
+    "total_matches": 20
+  },
+  "sheva_vs_yerema": {
+    "player1": {
+      "name": "Yerema",
+      "win": 7,
+      "draw": 6,
+      "loss": 12,
+      "win_rate": 28.0,
+      "draw_rate": 24.0,
+      "loss_rate": 48.0
+    },
+    "player2": {
+      "name": "Sheva",
+      "win": 12,
+      "draw": 6,
+      "loss": 7,
+      "win_rate": 48.0,
+      "draw_rate": 24.0,
+      "loss_rate": 28.0
+    },
+    "total_matches": 25
+  },
+  "pimchik_vs_senya": {
+    "player1": {
+      "name": "Senya",
+      "win": 0,
+      "draw": 0,
+      "loss": 0,
+      "win_rate": 0,
+      "draw_rate": 0,
+      "loss_rate": 0
+    },
+    "player2": {
+      "name": "pimchik",
+      "win": 0,
+      "draw": 0,
+      "loss": 0,
+      "win_rate": 0,
+      "draw_rate": 0,
+      "loss_rate": 0
+    },
+    "total_matches": 0
+  },
+  "fantazer_vs_pimchik": {
+    "player1": {
+      "name": "pimchik",
+      "win": 3,
+      "draw": 3,
+      "loss": 4,
+      "win_rate": 30.0,
+      "draw_rate": 30.0,
+      "loss_rate": 40.0
+    },
+    "player2": {
+      "name": "fantazer",
+      "win": 4,
+      "draw": 3,
+      "loss": 3,
+      "win_rate": 40.0,
+      "draw_rate": 30.0,
+      "loss_rate": 30.0
+    },
+    "total_matches": 10
+  },
+  "senya_vs_sheva": {
+    "player1": {
+      "name": "Sheva",
+      "win": 3,
+      "draw": 2,
+      "loss": 3,
+      "win_rate": 37.5,
+      "draw_rate": 25.0,
+      "loss_rate": 37.5
+    },
+    "player2": {
+      "name": "Senya",
+      "win": 3,
+      "draw": 2,
+      "loss": 3,
+      "win_rate": 37.5,
+      "draw_rate": 25.0,
+      "loss_rate": 37.5
+    },
+    "total_matches": 8
+  },
+  "senya_vs_yerema": {
+    "player1": {
+      "name": "Senya",
+      "win": 0,
+      "draw": 0,
+      "loss": 0,
+      "win_rate": 0,
+      "draw_rate": 0,
+      "loss_rate": 0
+    },
+    "player2": {
+      "name": "Yerema",
+      "win": 0,
+      "draw": 0,
+      "loss": 0,
+      "win_rate": 0,
+      "draw_rate": 0,
+      "loss_rate": 0
+    },
+    "total_matches": 0
+  },
+  "fantazer_vs_sheva": {
+    "player1": {
+      "name": "fantazer",
+      "win": 1,
+      "draw": 4,
+      "loss": 1,
+      "win_rate": 16.7,
+      "draw_rate": 66.7,
+      "loss_rate": 16.7
+    },
+    "player2": {
+      "name": "Sheva",
+      "win": 1,
+      "draw": 4,
+      "loss": 1,
+      "win_rate": 16.7,
+      "draw_rate": 66.7,
+      "loss_rate": 16.7
+    },
+    "total_matches": 6
+  },
+  "pimchik_vs_sheva": {
+    "player1": {
+      "name": "Sheva",
+      "win": 4,
+      "draw": 2,
+      "loss": 4,
+      "win_rate": 40.0,
+      "draw_rate": 20.0,
+      "loss_rate": 40.0
+    },
+    "player2": {
+      "name": "pimchik",
+      "win": 4,
+      "draw": 2,
+      "loss": 4,
+      "win_rate": 40.0,
+      "draw_rate": 20.0,
+      "loss_rate": 40.0
+    },
+    "total_matches": 10
+  },
+  "fantazer_vs_yerema": {
+    "player1": {
+      "name": "Yerema",
+      "win": 7,
+      "draw": 6,
+      "loss": 13,
+      "win_rate": 26.9,
+      "draw_rate": 23.1,
+      "loss_rate": 50.0
+    },
+    "player2": {
+      "name": "fantazer",
+      "win": 13,
+      "draw": 6,
+      "loss": 7,
+      "win_rate": 50.0,
+      "draw_rate": 23.1,
+      "loss_rate": 26.9
+    },
+    "total_matches": 26
+  },
+  "stenido_vs_urist": {
+    "player1": {
+      "name": "Stenido",
+      "win": 2,
+      "draw": 2,
+      "loss": 3,
+      "win_rate": 28.6,
+      "draw_rate": 28.6,
+      "loss_rate": 42.9
+    },
+    "player2": {
+      "name": "URIST",
+      "win": 3,
+      "draw": 2,
+      "loss": 2,
+      "win_rate": 42.9,
+      "draw_rate": 28.6,
+      "loss_rate": 28.6
+    },
+    "total_matches": 7
+  },
+  "solya_vs_stenido": {
+    "player1": {
+      "name": "Stenido",
+      "win": 8,
+      "draw": 5,
+      "loss": 6,
+      "win_rate": 42.1,
+      "draw_rate": 26.3,
+      "loss_rate": 31.6
+    },
+    "player2": {
+      "name": "Solya",
+      "win": 6,
+      "draw": 5,
+      "loss": 8,
+      "win_rate": 31.6,
+      "draw_rate": 26.3,
+      "loss_rate": 42.1
+    },
+    "total_matches": 19
+  },
+  "solya_vs_urist": {
+    "player1": {
+      "name": "URIST",
+      "win": 2,
+      "draw": 2,
+      "loss": 3,
+      "win_rate": 28.6,
+      "draw_rate": 28.6,
+      "loss_rate": 42.9
+    },
+    "player2": {
+      "name": "Solya",
+      "win": 3,
+      "draw": 2,
+      "loss": 2,
+      "win_rate": 42.9,
+      "draw_rate": 28.6,
+      "loss_rate": 28.6
+    },
+    "total_matches": 7
+  },
+  "nightxx_vs_tikitakamaster": {
+    "player1": {
+      "name": "TikitakaMaster",
+      "win": 10,
+      "draw": 2,
+      "loss": 0,
+      "win_rate": 83.3,
+      "draw_rate": 16.7,
+      "loss_rate": 0.0
+    },
+    "player2": {
+      "name": "Nightxx",
+      "win": 0,
+      "draw": 2,
+      "loss": 10,
+      "win_rate": 0.0,
+      "draw_rate": 16.7,
+      "loss_rate": 83.3
+    },
+    "total_matches": 12
+  },
+  "deroll_vs_volvo": {
+    "player1": {
+      "name": "volvo",
+      "win": 4,
+      "draw": 5,
+      "loss": 11,
+      "win_rate": 20.0,
+      "draw_rate": 25.0,
+      "loss_rate": 55.0
+    },
+    "player2": {
+      "name": "deroll",
+      "win": 11,
+      "draw": 5,
+      "loss": 4,
+      "win_rate": 55.0,
+      "draw_rate": 25.0,
+      "loss_rate": 20.0
+    },
+    "total_matches": 20
+  },
+  "deroll_vs_nekishka": {
+    "player1": {
+      "name": "deroll",
+      "win": 7,
+      "draw": 0,
+      "loss": 4,
+      "win_rate": 63.6,
+      "draw_rate": 0.0,
+      "loss_rate": 36.4
+    },
+    "player2": {
+      "name": "nekishka",
+      "win": 4,
+      "draw": 0,
+      "loss": 7,
+      "win_rate": 36.4,
+      "draw_rate": 0.0,
+      "loss_rate": 63.6
+    },
+    "total_matches": 11
+  },
+  "nightxx_vs_volvo": {
+    "player1": {
+      "name": "Nightxx",
+      "win": 4,
+      "draw": 1,
+      "loss": 7,
+      "win_rate": 33.3,
+      "draw_rate": 8.3,
+      "loss_rate": 58.3
+    },
+    "player2": {
+      "name": "volvo",
+      "win": 7,
+      "draw": 1,
+      "loss": 4,
+      "win_rate": 58.3,
+      "draw_rate": 8.3,
+      "loss_rate": 33.3
+    },
+    "total_matches": 12
+  },
+  "tikitakamaster_vs_volvo": {
+    "player1": {
+      "name": "volvo",
+      "win": 0,
+      "draw": 6,
+      "loss": 13,
+      "win_rate": 0.0,
+      "draw_rate": 31.6,
+      "loss_rate": 68.4
+    },
+    "player2": {
+      "name": "TikitakaMaster",
+      "win": 13,
+      "draw": 6,
+      "loss": 0,
+      "win_rate": 68.4,
+      "draw_rate": 31.6,
+      "loss_rate": 0.0
+    },
+    "total_matches": 19
+  },
+  "nekishka_vs_nightxx": {
+    "player1": {
+      "name": "nekishka",
+      "win": 3,
+      "draw": 1,
+      "loss": 4,
+      "win_rate": 37.5,
+      "draw_rate": 12.5,
+      "loss_rate": 50.0
+    },
+    "player2": {
+      "name": "Nightxx",
+      "win": 4,
+      "draw": 1,
+      "loss": 3,
+      "win_rate": 50.0,
+      "draw_rate": 12.5,
+      "loss_rate": 37.5
+    },
+    "total_matches": 8
+  },
+  "deroll_vs_nightxx": {
+    "player1": {
+      "name": "Nightxx",
+      "win": 4,
+      "draw": 1,
+      "loss": 7,
+      "win_rate": 33.3,
+      "draw_rate": 8.3,
+      "loss_rate": 58.3
+    },
+    "player2": {
+      "name": "deroll",
+      "win": 7,
+      "draw": 1,
+      "loss": 4,
+      "win_rate": 58.3,
+      "draw_rate": 8.3,
+      "loss_rate": 33.3
+    },
+    "total_matches": 12
+  },
+  "nekishka_vs_tikitakamaster": {
+    "player1": {
+      "name": "TikitakaMaster",
+      "win": 8,
+      "draw": 1,
+      "loss": 3,
+      "win_rate": 66.7,
+      "draw_rate": 8.3,
+      "loss_rate": 25.0
+    },
+    "player2": {
+      "name": "nekishka",
+      "win": 3,
+      "draw": 1,
+      "loss": 8,
+      "win_rate": 25.0,
+      "draw_rate": 8.3,
+      "loss_rate": 66.7
+    },
+    "total_matches": 12
+  },
+  "nekishka_vs_volvo": {
+    "player1": {
+      "name": "nekishka",
+      "win": 5,
+      "draw": 1,
+      "loss": 6,
+      "win_rate": 41.7,
+      "draw_rate": 8.3,
+      "loss_rate": 50.0
+    },
+    "player2": {
+      "name": "volvo",
+      "win": 6,
+      "draw": 1,
+      "loss": 5,
+      "win_rate": 50.0,
+      "draw_rate": 8.3,
+      "loss_rate": 41.7
+    },
+    "total_matches": 12
+  },
+  "deroll_vs_tikitakamaster": {
+    "player1": {
+      "name": "deroll",
+      "win": 9,
+      "draw": 2,
+      "loss": 9,
+      "win_rate": 45.0,
+      "draw_rate": 10.0,
+      "loss_rate": 45.0
+    },
+    "player2": {
+      "name": "TikitakaMaster",
+      "win": 9,
+      "draw": 2,
+      "loss": 9,
+      "win_rate": 45.0,
+      "draw_rate": 10.0,
+      "loss_rate": 45.0
+    },
+    "total_matches": 20
+  },
+  "hotshot_vs_rubix": {
+    "player1": {
+      "name": "RuBIX",
+      "win": 0,
+      "draw": 0,
+      "loss": 0,
+      "win_rate": 0,
+      "draw_rate": 0,
+      "loss_rate": 0
+    },
+    "player2": {
+      "name": "hotShot",
+      "win": 0,
+      "draw": 0,
+      "loss": 0,
+      "win_rate": 0,
+      "draw_rate": 0,
+      "loss_rate": 0
+    },
+    "total_matches": 0
+  },
+  "giannikid_vs_kodak": {
+    "player1": {
+      "name": "GianniKid",
+      "win": 6,
+      "draw": 2,
+      "loss": 4,
+      "win_rate": 50.0,
+      "draw_rate": 16.7,
+      "loss_rate": 33.3
+    },
+    "player2": {
+      "name": "Kodak",
+      "win": 4,
+      "draw": 2,
+      "loss": 6,
+      "win_rate": 33.3,
+      "draw_rate": 16.7,
+      "loss_rate": 50.0
+    },
+    "total_matches": 12
+  },
+  "kodak_vs_kray": {
+    "player1": {
+      "name": "Kodak",
+      "win": 3,
+      "draw": 2,
+      "loss": 7,
+      "win_rate": 25.0,
+      "draw_rate": 16.7,
+      "loss_rate": 58.3
+    },
+    "player2": {
+      "name": "Kray",
+      "win": 7,
+      "draw": 2,
+      "loss": 3,
+      "win_rate": 58.3,
+      "draw_rate": 16.7,
+      "loss_rate": 25.0
+    },
+    "total_matches": 12
+  },
+  "giannikid_vs_hotshot": {
+    "player1": {
+      "name": "hotShot",
+      "win": 5,
+      "draw": 5,
+      "loss": 2,
+      "win_rate": 41.7,
+      "draw_rate": 41.7,
+      "loss_rate": 16.7
+    },
+    "player2": {
+      "name": "GianniKid",
+      "win": 2,
+      "draw": 5,
+      "loss": 5,
+      "win_rate": 16.7,
+      "draw_rate": 41.7,
+      "loss_rate": 41.7
+    },
+    "total_matches": 12
+  },
+  "giannikid_vs_rubix": {
+    "player1": {
+      "name": "GianniKid",
+      "win": 0,
+      "draw": 0,
+      "loss": 0,
+      "win_rate": 0,
+      "draw_rate": 0,
+      "loss_rate": 0
+    },
+    "player2": {
+      "name": "RuBIX",
+      "win": 0,
+      "draw": 0,
+      "loss": 0,
+      "win_rate": 0,
+      "draw_rate": 0,
+      "loss_rate": 0
+    },
+    "total_matches": 0
+  },
+  "hotshot_vs_kray": {
+    "player1": {
+      "name": "Kray",
+      "win": 8,
+      "draw": 2,
+      "loss": 2,
+      "win_rate": 66.7,
+      "draw_rate": 16.7,
+      "loss_rate": 16.7
+    },
+    "player2": {
+      "name": "hotShot",
+      "win": 2,
+      "draw": 2,
+      "loss": 8,
+      "win_rate": 16.7,
+      "draw_rate": 16.7,
+      "loss_rate": 66.7
+    },
+    "total_matches": 12
+  },
+  "hotshot_vs_kodak": {
+    "player1": {
+      "name": "hotShot",
+      "win": 5,
+      "draw": 3,
+      "loss": 4,
+      "win_rate": 41.7,
+      "draw_rate": 25.0,
+      "loss_rate": 33.3
+    },
+    "player2": {
+      "name": "Kodak",
+      "win": 4,
+      "draw": 3,
+      "loss": 5,
+      "win_rate": 33.3,
+      "draw_rate": 25.0,
+      "loss_rate": 41.7
+    },
+    "total_matches": 12
+  },
+  "kray_vs_rubix": {
+    "player1": {
+      "name": "RuBIX",
+      "win": 0,
+      "draw": 0,
+      "loss": 0,
+      "win_rate": 0,
+      "draw_rate": 0,
+      "loss_rate": 0
+    },
+    "player2": {
+      "name": "Kray",
+      "win": 0,
+      "draw": 0,
+      "loss": 0,
+      "win_rate": 0,
+      "draw_rate": 0,
+      "loss_rate": 0
+    },
+    "total_matches": 0
+  },
+  "giannikid_vs_kray": {
+    "player1": {
+      "name": "Kray",
+      "win": 4,
+      "draw": 3,
+      "loss": 5,
+      "win_rate": 33.3,
+      "draw_rate": 25.0,
+      "loss_rate": 41.7
+    },
+    "player2": {
+      "name": "GianniKid",
+      "win": 5,
+      "draw": 3,
+      "loss": 4,
+      "win_rate": 41.7,
+      "draw_rate": 25.0,
+      "loss_rate": 33.3
+    },
+    "total_matches": 12
+  },
+  "kodak_vs_rubix": {
+    "player1": {
+      "name": "Kodak",
+      "win": 0,
+      "draw": 0,
+      "loss": 0,
+      "win_rate": 0,
+      "draw_rate": 0,
+      "loss_rate": 0
+    },
+    "player2": {
+      "name": "RuBIX",
+      "win": 0,
+      "draw": 0,
+      "loss": 0,
+      "win_rate": 0,
+      "draw_rate": 0,
+      "loss_rate": 0
+    },
+    "total_matches": 0
+  },
+  "a1ose_vs_space": {
+    "player1": {
+      "name": "A1ose",
+      "win": 19,
+      "draw": 6,
+      "loss": 2,
+      "win_rate": 70.4,
+      "draw_rate": 22.2,
+      "loss_rate": 7.4
+    },
+    "player2": {
+      "name": "SPACE",
+      "win": 2,
+      "draw": 6,
+      "loss": 19,
+      "win_rate": 7.4,
+      "draw_rate": 22.2,
+      "loss_rate": 70.4
+    },
+    "total_matches": 27
+  },
+  "cl1vlind_vs_r0ge": {
+    "player1": {
+      "name": "R0ge",
+      "win": 10,
+      "draw": 5,
+      "loss": 12,
+      "win_rate": 37.0,
+      "draw_rate": 18.5,
+      "loss_rate": 44.4
+    },
+    "player2": {
+      "name": "cl1vlind",
+      "win": 12,
+      "draw": 5,
+      "loss": 10,
+      "win_rate": 44.4,
+      "draw_rate": 18.5,
+      "loss_rate": 37.0
+    },
+    "total_matches": 27
+  },
+  "cl1vlind_vs_dangerdim77": {
+    "player1": {
+      "name": "cl1vlind",
+      "win": 8,
+      "draw": 4,
+      "loss": 15,
+      "win_rate": 29.6,
+      "draw_rate": 14.8,
+      "loss_rate": 55.6
+    },
+    "player2": {
+      "name": "DangerDim77",
+      "win": 15,
+      "draw": 4,
+      "loss": 8,
+      "win_rate": 55.6,
+      "draw_rate": 14.8,
+      "loss_rate": 29.6
+    },
+    "total_matches": 27
+  },
+  "r0ge_vs_space": {
+    "player1": {
+      "name": "SPACE",
+      "win": 6,
+      "draw": 8,
+      "loss": 13,
+      "win_rate": 22.2,
+      "draw_rate": 29.6,
+      "loss_rate": 48.1
+    },
+    "player2": {
+      "name": "R0ge",
+      "win": 13,
+      "draw": 8,
+      "loss": 6,
+      "win_rate": 48.1,
+      "draw_rate": 29.6,
+      "loss_rate": 22.2
+    },
+    "total_matches": 27
+  },
+  "andrew_vs_groma": {
+    "player1": {
+      "name": "Andrew",
+      "win": 1,
+      "draw": 1,
+      "loss": 3,
+      "win_rate": 20.0,
+      "draw_rate": 20.0,
+      "loss_rate": 60.0
+    },
+    "player2": {
+      "name": "Groma",
+      "win": 3,
+      "draw": 1,
+      "loss": 1,
+      "win_rate": 60.0,
+      "draw_rate": 20.0,
+      "loss_rate": 20.0
+    },
+    "total_matches": 5
+  },
+  "solya_vs_zaha": {
+    "player1": {
+      "name": "Solya",
+      "win": 3,
+      "draw": 0,
+      "loss": 1,
+      "win_rate": 75.0,
+      "draw_rate": 0.0,
+      "loss_rate": 25.0
+    },
+    "player2": {
+      "name": "zaha",
+      "win": 1,
+      "draw": 0,
+      "loss": 3,
+      "win_rate": 25.0,
+      "draw_rate": 0.0,
+      "loss_rate": 75.0
+    },
+    "total_matches": 4
+  },
+  "a1ose_vs_r0ge": {
+    "player1": {
+      "name": "R0ge",
+      "win": 7,
+      "draw": 6,
+      "loss": 15,
+      "win_rate": 25.0,
+      "draw_rate": 21.4,
+      "loss_rate": 53.6
+    },
+    "player2": {
+      "name": "A1ose",
+      "win": 15,
+      "draw": 6,
+      "loss": 7,
+      "win_rate": 53.6,
+      "draw_rate": 21.4,
+      "loss_rate": 25.0
+    },
+    "total_matches": 28
+  },
+  "dangerdim77_vs_space": {
+    "player1": {
+      "name": "DangerDim77",
+      "win": 16,
+      "draw": 5,
+      "loss": 7,
+      "win_rate": 57.1,
+      "draw_rate": 17.9,
+      "loss_rate": 25.0
+    },
+    "player2": {
+      "name": "SPACE",
+      "win": 7,
+      "draw": 5,
+      "loss": 16,
+      "win_rate": 25.0,
+      "draw_rate": 17.9,
+      "loss_rate": 57.1
+    },
+    "total_matches": 28
+  },
+  "cl1vlind_vs_space": {
+    "player1": {
+      "name": "SPACE",
+      "win": 8,
+      "draw": 7,
+      "loss": 13,
+      "win_rate": 28.6,
+      "draw_rate": 25.0,
+      "loss_rate": 46.4
+    },
+    "player2": {
+      "name": "cl1vlind",
+      "win": 13,
+      "draw": 7,
+      "loss": 8,
+      "win_rate": 46.4,
+      "draw_rate": 25.0,
+      "loss_rate": 28.6
+    },
+    "total_matches": 28
+  },
+  "a1ose_vs_dangerdim77": {
+    "player1": {
+      "name": "A1ose",
+      "win": 17,
+      "draw": 2,
+      "loss": 9,
+      "win_rate": 60.7,
+      "draw_rate": 7.1,
+      "loss_rate": 32.1
+    },
+    "player2": {
+      "name": "DangerDim77",
+      "win": 9,
+      "draw": 2,
+      "loss": 17,
+      "win_rate": 32.1,
+      "draw_rate": 7.1,
+      "loss_rate": 60.7
+    },
+    "total_matches": 28
+  },
+  "dangerdim77_vs_r0ge": {
+    "player1": {
+      "name": "DangerDim77",
+      "win": 17,
+      "draw": 2,
+      "loss": 9,
+      "win_rate": 60.7,
+      "draw_rate": 7.1,
+      "loss_rate": 32.1
+    },
+    "player2": {
+      "name": "R0ge",
+      "win": 9,
+      "draw": 2,
+      "loss": 17,
+      "win_rate": 32.1,
+      "draw_rate": 7.1,
+      "loss_rate": 60.7
+    },
+    "total_matches": 28
+  },
+  "a1ose_vs_cl1vlind": {
+    "player1": {
+      "name": "cl1vlind",
+      "win": 6,
+      "draw": 8,
+      "loss": 14,
+      "win_rate": 21.4,
+      "draw_rate": 28.6,
+      "loss_rate": 50.0
+    },
+    "player2": {
+      "name": "A1ose",
+      "win": 14,
+      "draw": 8,
+      "loss": 6,
+      "win_rate": 50.0,
+      "draw_rate": 28.6,
+      "loss_rate": 21.4
+    },
+    "total_matches": 28
+  },
+  "groma_vs_sheva": {
+    "player1": {
+      "name": "Groma",
+      "win": 6,
+      "draw": 2,
+      "loss": 8,
+      "win_rate": 37.5,
+      "draw_rate": 12.5,
+      "loss_rate": 50.0
+    },
+    "player2": {
+      "name": "Sheva",
+      "win": 8,
+      "draw": 2,
+      "loss": 6,
+      "win_rate": 50.0,
+      "draw_rate": 12.5,
+      "loss_rate": 37.5
+    },
+    "total_matches": 16
+  },
+  "andrew_vs_sheva": {
+    "player1": {
+      "name": "Sheva",
+      "win": 8,
+      "draw": 3,
+      "loss": 5,
+      "win_rate": 50.0,
+      "draw_rate": 18.8,
+      "loss_rate": 31.2
+    },
+    "player2": {
+      "name": "Andrew",
+      "win": 5,
+      "draw": 3,
+      "loss": 8,
+      "win_rate": 31.2,
+      "draw_rate": 18.8,
+      "loss_rate": 50.0
+    },
+    "total_matches": 16
+  },
+  "fantazer_vs_groma": {
+    "player1": {
+      "name": "fantazer",
+      "win": 2,
+      "draw": 1,
+      "loss": 3,
+      "win_rate": 33.3,
+      "draw_rate": 16.7,
+      "loss_rate": 50.0
+    },
+    "player2": {
+      "name": "Groma",
+      "win": 3,
+      "draw": 1,
+      "loss": 2,
+      "win_rate": 50.0,
+      "draw_rate": 16.7,
+      "loss_rate": 33.3
+    },
+    "total_matches": 6
+  },
+  "groma_vs_yerema": {
+    "player1": {
+      "name": "Groma",
+      "win": 8,
+      "draw": 3,
+      "loss": 5,
+      "win_rate": 50.0,
+      "draw_rate": 18.8,
+      "loss_rate": 31.2
+    },
+    "player2": {
+      "name": "Yerema",
+      "win": 5,
+      "draw": 3,
+      "loss": 8,
+      "win_rate": 31.2,
+      "draw_rate": 18.8,
+      "loss_rate": 50.0
+    },
+    "total_matches": 16
+  },
+  "andrew_vs_fantazer": {
+    "player1": {
+      "name": "Andrew",
+      "win": 4,
+      "draw": 0,
+      "loss": 2,
+      "win_rate": 66.7,
+      "draw_rate": 0.0,
+      "loss_rate": 33.3
+    },
+    "player2": {
+      "name": "fantazer",
+      "win": 2,
+      "draw": 0,
+      "loss": 4,
+      "win_rate": 33.3,
+      "draw_rate": 0.0,
+      "loss_rate": 66.7
+    },
+    "total_matches": 6
+  },
+  "andrew_vs_yerema": {
+    "player1": {
+      "name": "Yerema",
+      "win": 5,
+      "draw": 3,
+      "loss": 8,
+      "win_rate": 31.2,
+      "draw_rate": 18.8,
+      "loss_rate": 50.0
+    },
+    "player2": {
+      "name": "Andrew",
+      "win": 8,
+      "draw": 3,
+      "loss": 5,
+      "win_rate": 50.0,
+      "draw_rate": 18.8,
+      "loss_rate": 31.2
+    },
+    "total_matches": 16
+  }
+}

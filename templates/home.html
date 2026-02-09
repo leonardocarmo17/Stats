@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Document</title>
+  <title>Match Statistics</title>
 </head>
 <style>
 #matches-container {
@@ -16,10 +16,10 @@
 
 .match-card {
     width: 350px;
-    height: 300px;
+    height: 340px;
     border: 1px solid #ccc;
     border-radius: 8px;
-    padding: 15px 0px;
+    padding: 15px;
     background-color: #f9f9f9;
     box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
     font-family: Arial, sans-serif;
@@ -27,13 +27,46 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position: relative;
+}
+
+.match-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .match-card h3 {
-    margin: 0 0 10px 0;
+    margin: 0;
     font-size: 16px;
     color: #333;
-    text-align: center;
+    flex: 1;
+}
+
+.history-icon {
+    width: 32px;
+    height: 32px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+    flex-shrink: 0;
+}
+
+.history-icon:hover {
+    background-color: #0056b3;
+}
+
+.match-card-location {
+    color: #555;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
 /* Linha com os dois jogadores lado a lado */
@@ -52,20 +85,52 @@
 }
 
 .player img {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     margin-bottom: 5px;
+    object-fit: cover;
 }
 
 .player strong {
     margin-bottom: 5px;
+    font-size: 13px;
+    text-align: center;
 }
 
 .player-stats {
-    font-size: 13px;
+    font-size: 12px;
     color: #555;
     text-align: center;
+    line-height: 1.4;
+}
+
+.match-card-stats {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.stats-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 100%;
+    gap: 10px;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.stat-item {
+    text-align: center;
+    font-size: 12px;
+    flex: 1;
+}
+
+.match-date {
+    margin-top: 10px;
+    font-size: 13px;
+    text-align: center;
+    color: #666;
 }
 
 /* Botão ver mais */
@@ -81,123 +146,520 @@
     display: flex;
     margin: 30px auto;
 }
+
 #load-more:hover {
     background-color: #0056b3;
 }
-.restart{
-  justify-content: left;
-  display: flex;
-  padding: 20px;
+
+.restart {
+    justify-content: left;
+    display: flex;
+    padding: 20px;
 }
-.footer{
-  margin: 40px auto 0px;
-  display: flex;
-  justify-content: center;
-  border-top: 1px solid black;
+
+.footer {
+    margin: 40px auto 0px;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid black;
+}
+
+/* MODAL STYLES */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.modal-content {
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    margin: 10% auto;
+    padding: 0;
+    border: 2px solid #007bff;
+    border-radius: 12px;
+    width: 85%;
+    max-width: 400px;
+    max-height: 70vh;
+    overflow-y: auto;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    animation: slideDown 0.3s ease;
+    color: white;
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.modal-close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 20px;
+    padding: 10px 15px;
+}
+
+.modal-close:hover,
+.modal-close:focus {
+    color: white;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    border-bottom: 2px solid #007bff;
+}
+
+.modal-header h2 {
+    margin: 0;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.h2h-players-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.h2h-player-header {
+    text-align: center;
+    color: white;
+}
+
+.h2h-player-header .name {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.h2h-player-header .percentage {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4fb3d9;
+}
+
+.h2h-score-display {
+    text-align: center;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.h2h-score-display .score {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.h2h-score-display .label {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.h2h-match-list {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.h2h-match-item {
+    background-color: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 6px;
+    padding: 12px;
+    margin-bottom: 10px;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 70px;
+    gap: 12px;
+    align-items: center;
+}
+
+.h2h-match-details {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.h2h-match-teams {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.95);
+    line-height: 1.5;
+}
+
+.h2h-match-date {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.75);
+    line-height: 1.4;
+}
+
+.h2h-match-score-box {
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    background-color: rgba(79, 179, 217, 0.3);
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.modal-loading {
+    text-align: center;
+    padding: 20px;
+}
+
+.spinner {
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    border-top: 4px solid #4fb3d9;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+    margin: 0 auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.modal-error {
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+    padding: 15px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.modal-empty {
+    background-color: #d1ecf1;
+    border: 1px solid #bee5eb;
+    color: #0c5460;
+    padding: 15px;
+    border-radius: 4px;
+    text-align: center;
 }
 </style>
 
 <body>
-  <form method="POST" action="/restart" class="restart">
-    <button>Restart Data</div></button>
-  </form>
-
-
-<div id="matches-container">
-  {% for match in matches %}
-    <div class="match-card">
-      <h3>{{ match.tournament_name }}</h3>
-      <div class="players-row">
-        <div class="player">
-          <img src="{{ match.player1_picture }}" alt="{{ match.player1_name }}" style="max-width: 80px; height: auto;">
-          <strong>{{ match.player1_name }}</strong>
-          <div class="player-stats">
-            Win: {{ match.player1_stats.win }}<br>
-            Draw: {{ match.player1_stats.draw }}<br>
-            Loss: {{ match.player1_stats.loss }}
-          </div>
-        </div>
-        <div class="player">
-          <img src="{{ match.player2_picture }}" alt="{{ match.player2_name }}" style="max-width: 80px; height: auto;">
-          <strong>{{ match.player2_name }}</strong>
-          <div class="player-stats">
-            Win: {{ match.player2_stats.win }}<br>
-            Draw: {{ match.player2_stats.draw }}<br>
-            Loss: {{ match.player2_stats.loss }}
-          </div>
+  <!-- MODAL DE HISTÓRICO -->
+  <div id="h2h-modal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 id="modal-title">Histórico de Confrontos</h2>
+        <span class="modal-close" onclick="closeH2HModal()">&times;</span>
+      </div>
+      <div id="h2h-modal-content">
+        <div class="modal-loading">
+          <div class="spinner"></div>
+          <p>Carregando histórico...</p>
         </div>
       </div>
-      <div style="text-align:center;">
-        <div style="display:flex; justify-content:space-between; margin:0 auto; width:75%; gap:10px; align-items:center; white-space:nowrap;">
-            <div style="text-align:center;">
-            Win Rate<br><span style="color:green">{{ match.player1_stats.win_rate }}%</span>
-            </div>
-            <div style="text-align:center;">
-            Draw Rate<br><span>{{ match.player1_stats.draw_rate }}%</span>
-            </div>
-            <div style="text-align:center;">
-            Win Rate<br><span style="color:green">{{ match.player2_stats.win_rate }}%</span>
-            </div>
-        </div>
-        <div style="margin-top:15px; font-size: 16px;">
-            {{ match.date_str }}
-        </div>
-        </div>
-
-
-
     </div>
-  {% endfor %}
+  </div>
+
+  <div style="display: flex; gap: 20px; padding: 20px; align-items: center;">
+    <form method="POST" action="/restart" class="restart" style="padding: 0; margin: 0;">
+      <button>Restart Data</button>
+    </form>
+    
+    <div>
+      <label for="stadium-filter" style="font-weight: bold;">Filtrar por Estádio:</label>
+      <select id="stadium-filter" style="padding: 8px; border-radius: 4px; border: 1px solid #ccc; cursor: pointer;">
+        <option value="">Todos os Estádios</option>
+        {% for stadium in stadiums %}
+          <option value="{{ stadium }}">{{ stadium }}</option>
+        {% endfor %}
+      </select>
+    </div>
+  </div>
+
+<div id="matches-container">
 </div>
+
+<button id="load-more">Carregar Mais</button>
+
 <footer class="footer">
   <h3>Made By Desert/Leonardo</h3>
 </footer>
 <script>
-  
 const allMatches = {{ matches|tojson }};
-let displayed = 20;
+const MAX_DEFAULT = 100;
+let isFiltered = false;
+let displayed = Math.min(allMatches.length, MAX_DEFAULT);
+let filteredMatches = allMatches;
 
-document.getElementById("load-more")?.addEventListener("click", () => {
+
+function openH2HModal(player1, player2) {
+    const modal = document.getElementById("h2h-modal");
+    const modalTitle = document.getElementById("modal-title");
+    const modalContent = document.getElementById("h2h-modal-content");
+    
+    modalTitle.textContent = `${player1} vs ${player2} - Histórico`;
+    modalContent.innerHTML = '<div class="modal-loading"><div class="spinner"></div><p>Carregando histórico de partidas passadas...</p></div>';
+    
+    modal.style.display = "block";
+    
+    // Fazer requisição para obter histórico
+    fetchHeadToHead(player1, player2, modalContent);
+}
+
+function closeH2HModal() {
+    const modal = document.getElementById("h2h-modal");
+    modal.style.display = "none";
+}
+
+function formatDate(dateStr) {
+    if (!dateStr) return "Data desconhecida";
+    try {
+        const date = new Date(dateStr);
+        return date.toLocaleDateString('pt-BR', { 
+            year: 'numeric', 
+            month: 'long', 
+            day: 'numeric',
+            hour: '2-digit',
+            minute: '2-digit'
+        });
+    } catch (e) {
+        return dateStr;
+    }
+}
+
+function fetchHeadToHead(player1, player2, contentDiv) {
+    fetch(`/api/head-to-head/${encodeURIComponent(player1)}/${encodeURIComponent(player2)}`)
+        .then(response => response.json())
+        .then(data => {
+            console.log(`[H2H DEBUG] Dados recebidos para ${player1} vs ${player2}:`, data);
+            
+            if (!data.success) {
+                contentDiv.innerHTML = `<div class="modal-error">Erro ao carregar histórico: ${data.error}</div>`;
+                return;
+            }
+            
+            if (data.total_matches === 0) {
+                contentDiv.innerHTML = `<div class="modal-empty">Nenhuma partida encontrada entre ${player1} e ${player2}</div>`;
+                return;
+            }
+    
+            // Calcular percentuais
+            const p1WinRate = data.total_matches > 0 ? Math.round((data.player1.wins / data.total_matches) * 100) : 0;
+            const p2WinRate = data.total_matches > 0 ? Math.round((data.player2.wins / data.total_matches) * 100) : 0;
+            
+            
+            // Renderizar HTML
+            let html = `
+                <div class="h2h-players-header">
+                    <div class="h2h-player-header">
+                        <div class="name">${player1}</div>
+                        <div class="percentage">${p1WinRate}%</div>
+                    </div>
+                    <div class="h2h-player-header">
+                        <div class="name">${player2}</div>
+                        <div class="percentage">${p2WinRate}%</div>
+                    </div>
+                </div>
+                
+                <div class="h2h-score-display">
+                    <div class="score">${data.player1.wins} x ${data.player1.draws} x ${data.player2.wins}</div>
+                    <div class="label">Score</div>
+                </div>
+                
+                <div class="h2h-match-list">
+            `;
+            
+            // Renderizar cada partida com logs
+            data.matches.forEach((match, index) => {
+                const date = new Date(match.date);
+                const dateStr = date.toLocaleDateString('pt-BR', { day: '2-digit', month: '2-digit', year: '2-digit' });
+                const timeStr = date.toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' });
+                const p1Score = match.player1.score !== null ? match.player1.score : '-';
+                const p2Score = match.player2.score !== null ? match.player2.score : '-';
+                
+                
+                // Validações
+                if (match.player1.name.toLowerCase() !== player1.toLowerCase() && 
+                    match.player1.name.toLowerCase() !== player2.toLowerCase()) {
+                    console.warn(`[H2H AVISO] Partida ${index + 1}: Player1 "${match.player1.name}" não corresponde aos jogadores esperados`);
+                }
+                
+                // Formato: "volvo 2 x 4 deroli"
+                html += `
+                    <div class="h2h-match-item">
+                        <div class="h2h-match-details">
+                            <div class="h2h-match-teams">${match.player1.name} ${p1Score} x ${p2Score} ${match.player2.name}</div>
+                            <div class="h2h-match-date">${dateStr} ${timeStr}</div>
+                        </div>
+                        <div class="h2h-match-score-box">${p1Score} - ${p2Score}</div>
+                    </div>
+                `;
+            });
+            
+            html += '</div>';
+            contentDiv.innerHTML = html;
+                        
+        })
+        .catch(error => {
+            console.error("[H2H ERROR]", error);
+            contentDiv.innerHTML = `<div class="modal-error">Erro ao carregar histórico: ${error.message}</div>`;
+        });
+}
+
+// Fechar modal ao clicar fora
+window.onclick = function(event) {
+    const modal = document.getElementById("h2h-modal");
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+// Fechar modal ao pressionar ESC
+document.addEventListener('keydown', function(event) {
+    if (event.key === 'Escape') {
+        const modal = document.getElementById("h2h-modal");
+        modal.style.display = "none";
+    }
+});
+
+function renderMatches() {
   const container = document.getElementById("matches-container");
-  const nextMatches = allMatches.slice(displayed, displayed + 20);
-
-  nextMatches.forEach(match => {
+  container.innerHTML = "";
+  
+  const matchesToRender = filteredMatches.slice(0, displayed);
+    
+  const cardIdsUsed = new Set();
+  matchesToRender.forEach((match, index) => {
+    if (!match.id || !match.player1_name || !match.player2_name) {
+      console.warn("Match incompleto:", match);
+      return;
+    }
+    
+    // Determinar ID único para o card
+    let cardId = `match-${match.id}`;
+    if (cardIdsUsed.has(cardId)) {
+      console.warn(`[RENDER WARNING] Card ID já existe: ${cardId}. Usando fallback com índice.`);
+      cardId = `match-${match.id}-${index}`;
+    }
+    cardIdsUsed.add(cardId);
+    
     const card = document.createElement("div");
+    card.id = cardId;
     card.classList.add("match-card");
     card.innerHTML = `
-      <h3>${match.tournament_name}</h3>
+      <div class="match-card-header">
+        <h3>${match.tournament_name}</h3>
+        <button class="history-icon" onclick="openH2HModal('${match.player1_name.replace(/'/g, "\\'")}', '${match.player2_name.replace(/'/g, "\\'")}');" title="Ver histórico de confrontos">📊</button>
+      </div>
+      <div class="match-card-location">${match.tournament_location}</div>
       <div class="players-row">
         <div class="player">
-          <img src="/static/icons/player1.png" alt="${match.player1_name}">
+          <img src="${match.player1_picture}" alt="${match.player1_name}" style="max-width: 70px; height: auto;">
           <strong>${match.player1_name}</strong>
           <div class="player-stats">
-            Win: ${match.player1_stats.win_rate}%<br>
-            Draw: ${match.player1_stats.draw_rate}%<br>
-            Loss: ${match.player1_stats.loss_rate}%
+            Win: ${match.player1_stats.win}<br>
+            Tie: ${match.player1_stats.draw}<br>
+            Loss: ${match.player1_stats.loss}
           </div>
         </div>
         <div class="player">
-          <img src="/static/icons/player2.png" alt="${match.player2_name}">
+          <img src="${match.player2_picture}" alt="${match.player2_name}" style="max-width: 70px; height: auto;">
           <strong>${match.player2_name}</strong>
           <div class="player-stats">
-            Win: ${match.player2_stats.win_rate}%<br>
-            Draw: ${match.player2_stats.draw_rate}%<br>
-            Loss: ${match.player2_stats.loss_rate}%
+            Win: ${match.player2_stats.win}<br>
+            Tie: ${match.player2_stats.draw}<br>
+            Loss: ${match.player2_stats.loss}
           </div>
         </div>
       </div>
-      <div style="text-align:center;">
-        <small>${match.date}</small>
+      <div class="match-card-stats">
+        <div class="stats-row">
+          <div class="stat-item">
+            Win Rate<br><span style="color:green">${match.player1_stats.win_rate}%</span>
+          </div>
+          <div class="stat-item">
+            Tie Rate<br><span>${match.player1_stats.draw_rate}%</span>
+          </div>
+          <div class="stat-item">
+            Win Rate<br><span style="color:green">${match.player2_stats.win_rate}%</span>
+          </div>
+        </div>
+        <div class="match-date">
+          📅 ${match.date_str}
+        </div>
       </div>
     `;
     container.appendChild(card);
   });
-
-  displayed += 20;
-
-  if (displayed >= allMatches.length) {
+  
+  if (displayed >= filteredMatches.length) {
     document.getElementById("load-more").style.display = "none";
+  } else {
+    document.getElementById("load-more").style.display = "flex";
   }
+}
+
+// Evento para o select de filtro
+document.getElementById("stadium-filter").addEventListener("change", (e) => {
+  const selectedStadium = e.target.value;
+  
+  if (selectedStadium === "") {
+    filteredMatches = allMatches;
+    isFiltered = false;
+    displayed = Math.min(filteredMatches.length, MAX_DEFAULT);
+  } else {
+    filteredMatches = allMatches.filter(match => {
+      return match.tournament_location === selectedStadium;
+    });
+    isFiltered = true;
+    displayed = filteredMatches.length;
+  }
+  
+  renderMatches();
+});
+
+// Renderizar matches inicialmente
+renderMatches();
+
+document.getElementById("load-more")?.addEventListener("click", () => {
+  if (isFiltered) {
+    displayed = filteredMatches.length;
+  } else {
+    displayed = Math.min(displayed + 20, filteredMatches.length);
+  }
+  renderMatches();
 });
 </script>
 
